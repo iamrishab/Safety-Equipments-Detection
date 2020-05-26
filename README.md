@@ -2,7 +2,9 @@
 **Neural network for object detection**
 
 `$ git clone https://github.com/iamrishab/Safety-Equipments-Detection.git`
+
 `$ cd Safety-Equipments-Detection`
+
 `$ pip install -r requiremets.txt`
 
 It is advisable that you do the installation in a virtual environment.
@@ -54,10 +56,15 @@ Open a bash terminal inside the cloned repository and launch:
 Model configuration and meta files are placed in `cfg` and `data` folder respectively. Download pretrained weights from [link](https://drive.google.com/file/d/1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp/view) and place it in darknet folder.
 
 Step 1: Download the image and annotations.
+
 Step 2: Change paths in `config.py` accordingly to save the parsed ground truths.
+
 Step 3: Run `$ python parse_xml.py` to parse the ground truths from xml file to Yolo format.
+
 Step 4: Copy paste the txt files from subsequent folder to image directory.
+
 Step 5: Change path to files in `data/helmet.data` and `data/mask.data`. Place the model `cfg`,  `data`,  `names` files from `data` dir to `darknet/cfg` ,  `darknet/data`, `darknet/data` respectively.
+
 Step 6: Start training using the command from the `darknet` folder. f.e.
 `$ ./darknet detector train -dont_show data/helmet.data cfg/yolov4-helmet.cfg yolov4.conv.137`
  
