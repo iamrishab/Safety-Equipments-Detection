@@ -4,14 +4,14 @@ darknet_libso_path = '/path/to/darknet/libdark.so'
 # model requirements path
 model_req = {
     'mask':{
-        'configPath': '/path/to/darknet/cfg/yolov4-mask.cfg',
-        'weightPath': '/home/rishab/repos/darknet/backup_mask/yolov4-mask_last.weights',
-        'metaPath': '/home/rishab/repos/darknet/data/mask.data',
+        'configPath': '/path/to/darknet/cfg/yolov4-mask.cfg', # Path to mask model config
+        'weightPath': '/home/rishab/repos/darknet/backup_mask/yolov4-mask_last.weights', # Path to trained weights
+        'metaPath': '/home/rishab/repos/darknet/data/mask.data', # Path to meta info file
     },
     'helmet':{
-        'configPath': '/home/rishab/repos/darknet/cfg/yolov4-helmet.cfg',
-        'weightPath': '/home/rishab/repos/darknet/backup_helmet/yolov4-helmet_last.weights',
-        'metaPath': '/home/rishab/repos/darknet/data/helmet.data',
+        'configPath': '/home/rishab/repos/darknet/cfg/yolov4-helmet.cfg', # Path to helmet model config
+        'weightPath': '/home/rishab/repos/darknet/backup_helmet/yolov4-helmet_last.weights', # Path to trained weights
+        'metaPath': '/home/rishab/repos/darknet/data/helmet.data', # Path to meta info file
     }
 }
 

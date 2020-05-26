@@ -5,13 +5,6 @@ __pycache__/
 .DS_Store
 .git/
 
-del.py
-
-# dirs
-data
-eval
-upload
-
 nohup.out
 
 # Flask stuff:

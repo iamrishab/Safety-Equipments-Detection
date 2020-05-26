@@ -1,0 +1,5 @@
+classes= 2
+train  = /path/to/helmet_train.txt
+valid  = /path/to/helmet_val.txt
+names = /path/to/helmet.names
+backup = /path/to/save/trained/weights
